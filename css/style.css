@@ -1,0 +1,127 @@
+body{
+    background-color: #000000;
+}
+
+h1 {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    border-width: 10px;
+    border-style: dashed;
+    border-color: #FFFFFF;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+/* ---------INTRODUCTION--------- */
+
+.introduction {
+    border-color: #FFFFFF;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.introduction p{
+    color: #FFFFFF;
+}
+
+/* ---------RED--------- */
+
+.red{
+    background-color: #FF0000;
+    text-align: right;
+    padding: 12px;
+    margin: 0 0 0 32px;
+    border-width: 0 0 2px 4px;
+    border-style: solid;
+    border-color: #FFFFFF;
+}
+
+.red p {
+    color: #FFFFFF;
+}
+
+.red h2{
+    color: #000000;
+    font-weight: 500;
+}
+
+
+/* ---------BLUE--------- */
+
+.blue{
+    background-color: #0000FF;
+    text-align: left;
+    padding: 12px;
+    margin-right: 32px;
+    border-width: 2px 4px 0 0;
+    border-style: solid;
+    border-color: #FFFFFF;
+}
+
+.blue p{
+    color: #FFFFFF;
+}
+
+.blue h2{
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+/* ---------YELLOW--------- */
+
+.yellow {
+  background-color: #FFFF00;
+    text-align: right;
+    padding: 12px;
+    margin: 0 0 0 32px;
+    border-width: 0 0 2px 4px;
+    border-style: solid;
+    border-color: #FFFFFF;
+
+}
+.yellow p, .yellow h2{
+    font-weight: 500;
+}
+
+/* ---------GREEN--------- */
+
+.green{
+    background-color: #008000;
+    text-align: ledt;
+    padding: 12px;
+    border-width: 2px 4px 0 0;
+    border-style: solid;
+    border-color: #FFFFFF;
+    margin-right: 32px;
+}
+
+.green p {
+    color: #FFFFFF;
+}
+
+.green h2{
+    font-weight: 500;
+}
+
+/* ---------FOOTER--------- */
+
+footer {
+    text-align: right;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    background: radial-gradient(circle, #0000FF, #000000);
+}
+
+footer p{
+    color: #FFFFFF;
+}
